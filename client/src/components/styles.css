@@ -1,0 +1,236 @@
+/* -----------home----------*/
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Saira+Stencil+One&family=Salsa&family=Silkscreen:wght@400;700&display=swap');
+
+.main-container {
+    height: 100%;
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+.nav-container {
+    background-color: rgb(3, 167, 200);
+  
+}
+.nav-container nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.nav-container h1{
+    padding: 2px;
+    font-size: 30px;
+
+}
+.logo-setup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-setup img{
+    height: 50px;
+    text-align: center;
+}
+.reg-loin-container{
+    display: flex;
+    gap: 25px;
+    padding-left: 200px;   
+}
+.reg-loin-container Link {
+    color: rgb(5, 5, 5);
+}
+
+
+.home-container{
+    background-image: url('./assets//lp4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px; 
+
+}
+.h-container{
+    text-align: center;
+}
+
+.h-container p{
+    color: rgba(0, 221, 255, 0.921);
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+
+.h-container button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 213, 0);
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+/*---------register & Login---*/
+.reg-container {
+    align-items: center; /* Center items vertically */
+    background: linear-gradient(to left, #e32f2fb7, #6699ff);
+    height: 100vh;
+    text-align: center;
+    padding: 80px;
+   
+  }
+  
+  .reg-container label {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    gap : 200px;
+  }
+  
+  .reg-container input {
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 10px;
+    width: 250px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .reg-container button{
+    padding: 15px;
+    width: 120px;
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    animation: forwards;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    background-color: #6699ff;
+    color: black;
+    
+  }
+  .reg-container button:hover {
+    color:rgb(255, 255, 255);
+    background-color: #a42a14b4;
+    transform: scale(1.1); 
+  }
+  .reg-container p{
+    padding-left: 250px;
+    padding-bottom: 500px;
+    font-size: 16px;
+  }
+  span {
+    color: #0044ff;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .reg-heading{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+
+  }
+  
+  /*---------Allprofiles---*/
+
+  .allpro-container{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(246, 245, 243);
+    padding-top: 30px;
+
+  }
+.allpro-container h1{
+    color: rgb(0, 0, 0);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.prfiles{
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  justify-content: space-evenly;
+}
+.skill-components li  {  
+ list-style: none;
+}
+.skill-components{
+  padding-top: 20px;
+}
+
+
+.profile-container img{
+    height: 220px;
+}
+.profile-details h1{
+  font-size: 35px;
+}
+.profile-details p{
+  font-size: 20px;
+  font-size: larger;
+
+}
+.profile-details button{
+  background-color: #6699ff;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.skill-components{
+text-align: center;
+font-size: 19px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*___________indi-profile --------------*/
+.indi-profile{
+  text-align: center;
+  background-color: rgb(254, 254, 255);
+  padding-top: 20px;
+  height: 100vh;
+}
+.indi-profile img{
+  height: 180px;
+ 
+}
+ .indpro-details{
+  background-color: #88a7e4;
+  padding: 6px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 100px;
+
+ } 
+ .ratings h1{
+  font-size: 50px;
+ 
+ }
+ .ratings label{
+  font-size: 20px;
+ }
+ .ratings input{
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-right: 100px;
+  text-align: center;
+
+ }
+ .ratings button{
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(194, 133, 52);
+  font-weight: bold;
+  margin-left: 25px;
+ }
